@@ -47,3 +47,4 @@ position = Vector2( 350, 550 )
 
 [node name="PlayerShip" parent="." instance=ExtResource( 3 )]
 position = Vector2( 410, 990 )
+
