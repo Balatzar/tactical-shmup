@@ -13,7 +13,6 @@ func _physics_process(delta: float) -> void:
 	Global.mouse_speed = _last_position - mouse_position
 	_last_position = mouse_position
 	if _moving:
-		print("moving")
 		_moving = false
 	else:
 		Global.mouse_speed = Vector2.ZERO
